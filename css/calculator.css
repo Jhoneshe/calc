@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 165px;
+    margin: 100px auto;
+    overflow: hidden;
+    border: 1px solid #fff;
+}
+.result{
+    display: block;
+    margin: 5px auto;
+    width: 144px;
+    height: 24px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    text-align: right;
+    padding: 3px;
+}
+
+.num_wrap{
+    width: 120px;
+    height: 160px;
+    overflow: hidden;
+    margin: 0 auto;
+    float: left;
+}
+.my_button{
+    display: block;
+    width: 30px;
+    height: 30px;
+    float: left;
+    background: #ccc;
+    margin: 5px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 30px;
+    transition: all 0.5s;
+    cursor: pointer;
+    float: left;
+    font-size: 13px;
+}
+.my_button:hover{
+    background: #f60;
+    color: #fff;
+}
+#zero{
+    width: 70px;
+}
+.mark_top{
+    margin: 5px auto;
+    overflow: hidden;
+    width: 165px;
+}
+#equal{
+    height: 70px;
+    line-height: 70px;
+}
+.mark_right{
+    overflow: hidden;
+}
